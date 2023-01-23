@@ -24,5 +24,9 @@ $apple = new Fruit();
 $apple -> set_name('Apple');
 $apple -> set_color('Green');
 
-echo ('this' . $apple->get_name() . 'is' . $apple->get_color());
+echo ('<h1>
+        this ' . $apple->get_name() . ' is ' . $apple->get_color() . 
+    '</h1>');
+
+    
 ?>
