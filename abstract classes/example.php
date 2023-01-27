@@ -12,19 +12,19 @@ abstract class Car {
 class Audi extends Car {
     public function intro(): string
     {
-        return "this is german car : {$this->name}";
+        return "<h1> this is german car : {$this->name} </h1>";
     }
 }
 class Volvo extends Car {
     public function intro(): string
     {
-        return "this is Swedish car : {$this->name}";
+        return "<h1> this is Swedish car : {$this->name} <h1>";
     }
 }
 
 $audi = new Audi('audi');
 echo $audi->intro();
-
+echo "<br>";
 $volvo = new Volvo('volvo');
 echo $volvo->intro();
 
